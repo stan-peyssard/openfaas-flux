@@ -17,7 +17,7 @@ spec:
         spec:
           containers:
           - name: faas-cli
-            image: openfaas/faas-cli:0.6.13
+            image: openfaas/faas-cli:0.8.5
             args:
             - /bin/sh
             - -c

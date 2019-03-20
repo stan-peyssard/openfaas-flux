@@ -40,7 +40,7 @@ spec:
     prometheus:
       image: prom/prometheus:v2.3.1
     alertmanager:
-      image: prom/alertmanager:v0.15.0
+      image: prom/alertmanager:v0.16.1
     nats:
       image: nats-streaming:0.6.0
     ingress:
