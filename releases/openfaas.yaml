@@ -38,7 +38,7 @@ spec:
     basic_auth:
       enabled: true
     prometheus:
-      image: prom/prometheus:v2.3.1
+      image: prom/prometheus:v2.8.0
     alertmanager:
       image: prom/alertmanager:v0.16.1
     nats:
