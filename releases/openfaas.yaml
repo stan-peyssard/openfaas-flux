@@ -19,7 +19,7 @@ spec:
   releaseName: openfaas
   values:
     gateway:
-      image: openfaas/gateway:0.8.5
+      image: openfaas/gateway:0.12.0
       readTimeout: "20s"
       writeTimeout: "20s"
       replicas: 2
